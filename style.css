@@ -1,0 +1,65 @@
+body{
+    background-color: hsl(0, 0%, 94%);
+}
+#box{
+    background: white;
+    height: 450px;;
+    width: 90%;
+   
+    border-radius: 20% 20% 50% 20%;
+    display: flex;
+    flex-direction: column;
+}
+#day,#month,#year{
+    height: 40px;
+    width:100px;
+    border-radius: 10px;
+    border:none;
+    background-color: hsl(0, 0%, 94%);
+}
+div{
+    padding:10px;
+}
+#top{
+    display:flex;
+    justify-content: space-around;
+}
+#lyears,#lmonths,#ldays{
+    display:flex;
+    padding:0%;
+    margin:0%;
+}
+#submit{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border:none;
+    background: hsl(259, 100%, 65%);
+    background-image: url("./icon-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+#desh1,#desh2,#desh3{
+    color:hsl(259, 100%, 65%);
+
+}
+#ss{
+    margin-left: 40%;
+}
+#bottom{
+    flex-basis: 70%;
+    display:flex;
+    flex-direction: column;
+align-items: center;
+font-size: 50px;
+}
+@media(min-width:600px) {
+    #box{
+        height:500px;
+        width: 500px;
+        margin:auto;
+    }
+    
+}
