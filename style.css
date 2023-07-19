@@ -1,7 +1,18 @@
 body{
     background-color: hsl(0, 0%, 94%);
+    padding: 0%;
 }
 #box{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    margin: 0px;
+
+}
+#content{
     background: white;
     height: 450px;;
     width: 90%;
@@ -56,7 +67,7 @@ align-items: center;
 font-size: 50px;
 }
 @media(min-width:600px) {
-    #box{
+    #content{
         height:500px;
         width: 500px;
         margin:auto;
